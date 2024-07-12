@@ -1,0 +1,542 @@
+<!-- linking external css -<link href=""> 
+  internal css-- <style></style>
+  inline css- style attribute;
+  here computer reads the latest command that is given. and inline css is always the lates command
+
+  hierarchy- inline css is always given preference.
+
+
+  SELECTORS: tags
+  # ids 
+  .classes
+
+  css-tricks.com
+  google fonts: embedded code-in link section of html
+                css code 
+
+SIZES: px,
+       em- takes into consideration the resolutio of the page and then  applies the size.
+
+       
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Prophet</title>
+</head>
+<style>
+   
+        body {
+  background: radial-gradient(circle, beige, white);
+}
+.image{
+    /* thickness color style */
+    border:8px black solid;
+    width:200px;
+     height:300px;
+}
+.para{
+    max-width:500px;
+    text-align:left;
+    border:8px black;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 201, 152);
+    justify-content: space-between;
+    padding: 20px;
+    margin:-5px;
+    align-items: center;
+  }
+  .nav .logo {
+    color: #080303;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav .logo img {
+    width: 150px;
+    margin: 0 15px 0 0;
+  }
+  .nav .menu {
+    width: 40%;
+  }
+  .nav .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .nav .menu ul li {
+    list-style: none;
+  }
+  .nav .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav .menu ul li a:hover {
+    text-decoration: underline;
+    color: lightgray;
+  }
+  footer{
+    text-align: center;
+    padding: 20px , 20px;
+    background-color:rgb(236, 201, 152) ;
+    color: #fff;
+  }
+footer p{
+    margin: 2px 2px 2px 2px;
+    padding: 25px;
+  }
+
+</style>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="logonews.png" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="newpapers.html">Newsletters</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+              </ul>
+        </div>
+    </div>
+    <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading"> The Boston Globe</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9_wZVZDtcVWFKJ7EW8hDPzDVsCiLyKgbGNIh0MFgq374C6biu"  alt=""></div>
+</th>
+    <th>
+    <div> <p class="para"><b>
+        <br>
+        <br>
+        <br>
+        <br>Biden faces fresh calls to withdraw as Democrats fear electoral rout.</b>
+        President Biden faced a fresh wave of pressure on Wednesday to end his campaign or rethink his decision to run for reelection, as Democrats from Hollywood to Capitol Hill aired grave concerns that he would lose to former president Donald Trump in November and drag his party's chance of controlling Congress down with him.
+        <br>
+        <br>
+        <br>
+        After Putin Gaffe, Biden Calls Kamala Harris "Vice President Trump" At Press Meet
+        Washington:US President Joe Biden, under intense scrutiny over his mental fitness to serve, mistakenly referred to his Vice President Kamala Harris on Thursday as "Vice President Trump."
+        Biden, asked whether Harris could beat Donald Trump if he decided not to run again, said: "I wouldn't have picked Vice President Trump to be vice president if I did not think she was not qualified to be president."
+    </p></div>
+        </th>
+        <th>
+            <div> <p class="para"><b>
+                <br>
+                <br>
+                <br>Local police didn't want him to have guns. He was allowed to buy them anyway. Then he killed his wife - and himself.<br>
+                    Police in Hopkinton, R.I., twice denied Joseph Francis' applications to buy firearms because of a cyberstalking charge. But Francis' lawyer, who is also the president of the R.I. Second Amendment Coalition, cleared the way.
+                    
+                <br>
+                <br>
+                <br>
+                Closed state prison reopened as migrant shelter spurs concern about schooling in a Massachusetts town:<br>
+                Officials from the King Philip Regional School District and Norfolk Public Schools sought to assure parents and others that enrolling migrant childrenstaying at the shelter would not result in packed classrooms and diminished resources.
+            </p></div>
+                </th>
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading">The <br>Hindustan<br> Times</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrjMDYn26Dq7aC9FAgewYY_nD2nlQqJqwSQQ&s"  alt="image"></div>
+</th>
+    <th>
+        <div> <p class="para"><b>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>As India's T20 World Cup title win sinks in and the euphoria settle down, members of India's triumphant campaign can now sit back and reflect on the memories and experience from that one month in the US and the Caribbean islands when the team stitched an unbeaten run of eight matches to clinch the trophy.
+            The Rohit Sharma-led team lifted the trophy after beating South Africa by seven runs in a thrilling final at Bridgetown, Barbados, on June 29.
+            <br>
+            <br>
+            <br>
+            Gautam Gambhir's appointment as India's new head coach means that the Kolkata Knight Riders (KKR) won't have their most influential figure, who won them three Indian Premier League titles, in their ranks for the next season; and reports suggest that the KKR management is already on the lookout for Gambhir's replacement.
+    According to a report in The Telegraph, one of the frontrunners to replace Gambhir as KKR's mentor is South African great and the franchise's former coach Jacques Kallis.
+        </p></div>
+            </th>
+            <th>
+                <div> <p class="para"><b>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    VIJAYAWADA: The Nagarampalem police of Guntur district on Friday registered a case against former chief minister and YSRC president YS Jagan Mohan Reddy and 4 others.
+                    The case was also registered against former director general (DG) of police (Intelligence) PSR Anjaneyulu, former additional superintendent of police (CID) and Dr G Prabhavathi former superintendent of government general hospital.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+    
+                    Maharashtra govt to issue order banning sale of high caffeine energy drinks...
+    
+    Maharashtra FDA Minister Atram announced a ban on high-caffeine energy drinks within 500 meters of schools during a Question Hour. This response followed legislator Tambe's inquiry. Both carbonat...
+                </p></div>
+                    </th>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading">The <br>New York<br> Times</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuvREHXpKQfuMALFcU2tpma7K1-wy26mYA2XqFbCaEwd_B1vES"  alt="image"></div>
+</th>
+    <th>
+    <div> <p class="para"><b>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>Biden faces fresh calls to withdraw as Democrats fear electoral rout.</b>
+        President Biden faced a fresh wave of pressure on Wednesday to end his campaign or rethink his decision to run for reelection, as Democrats from Hollywood to Capitol Hill aired grave concerns that he would lose to former president Donald Trump in November and drag his party's chance of controlling Congress down with him.
+        <br>
+        <br>
+        <br>
+        After Putin Gaffe, Biden Calls Kamala Harris "Vice President Trump" At Press Meet
+        Washington:US President Joe Biden, under intense scrutiny over his mental fitness to serve, mistakenly referred to his Vice President Kamala Harris on Thursday as "Vice President Trump."
+        Biden, asked whether Harris could beat Donald Trump if he decided not to run again, said: "I wouldn't have picked Vice President Trump to be vice president if I did not think she was not qualified to be president."
+    </p></div>
+        </th>
+        <th>
+            <div> <p class="para"><b>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>Local police didn't want him to have guns. He was allowed to buy them anyway. Then he killed his wife - and himself.<br>
+                    Police in Hopkinton, R.I., twice denied Joseph Francis' applications to buy firearms because of a cyberstalking charge. But Francis' lawyer, who is also the president of the R.I. Second Amendment Coalition, cleared the way.
+                    
+                <br>
+                <br>
+                <br>
+                Closed state prison reopened as migrant shelter spurs concern about schooling in a Massachusetts town:<br>
+                Officials from the King Philip Regional School District and Norfolk Public Schools sought to assure parents and others that enrolling migrant childrenstaying at the shelter would not result in packed classrooms and diminished resources.
+            </p></div>
+                </th>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading">Times of India</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVfbrIDzXvZ62jr3Dp74mn1rl0y16wjQsCl7xxvCv_7HqC48UPCjbe-5qxSu46h_D1cHs&usqp=CAU"  alt=""></div>
+</th>
+    <th>
+    <div> <p class="para"><b>
+        <br>
+        <br>
+        <br>
+        <br>As India's T20 World Cup title win sinks in and the euphoria settle down, members of India's triumphant campaign can now sit back and reflect on the memories and experience from that one month in the US and the Caribbean islands when the team stitched an unbeaten run of eight matches to clinch the trophy.
+        The Rohit Sharma-led team lifted the trophy after beating South Africa by seven runs in a thrilling final at Bridgetown, Barbados, on June 29.
+        <br>
+        <br>
+        <br>
+        Gautam Gambhir's appointment as India's new head coach means that the Kolkata Knight Riders (KKR) won't have their most influential figure, who won them three Indian Premier League titles, in their ranks for the next season; and reports suggest that the KKR management is already on the lookout for Gambhir's replacement.
+According to a report in The Telegraph, one of the frontrunners to replace Gambhir as KKR's mentor is South African great and the franchise's former coach Jacques Kallis.
+    </p></div>
+        </th>
+        <th>
+            <div> <p class="para"><b>
+                <br>
+                <br>
+                VIJAYAWADA: The Nagarampalem police of Guntur district on Friday registered a case against former chief minister and YSRC president YS Jagan Mohan Reddy and 4 others.
+                The case was also registered against former director general (DG) of police (Intelligence) PSR Anjaneyulu, former additional superintendent of police (CID) and Dr G Prabhavathi former superintendent of government general hospital.
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                Maharashtra govt to issue order banning sale of high caffeine energy drinks...
+
+Maharashtra FDA Minister Atram announced a ban on high-caffeine energy drinks within 500 meters of schools during a Question Hour. This response followed legislator Tambe's inquiry. Both carbonat...
+            </p></div>
+                </th>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading">VOGUE</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTncFloC6QqFXSLCK-pUsHxtWTkQJHmjhNeZw&s"  alt=""></div>
+</th>
+    <th>
+    <div> <p class="para"><b>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>Sometimes, all we want is our comfort content; to immerse ourselves in a fictional world we know and love. But instead of championing new voices, instead of returning to those original, familiar stories, Hollywood wants us to consume new takes on old sh*t—in turn, ruining our tried-and-true comfort watches.
+
+        Would I rewatch Friends or The O.C. if I knew the story would continue 20+ years later? Do we need to see Remy's life at his bistro in a potential Ratatouille 2? Probably not. These standalone stories are perfect as they are. Even when franchises end on a perfectly satisfying note with all lingering storylines complete, there's a high chance some executive will decide on a whim that the story should be prolonged, no matter if it's been less than a decade since its end. Nostalgia might be at an all-time high, but familiarity breeds contempt, and some things are better left untouched.
+        
+        In the past 7 days alone, we,ve gotten confirmation of Devil Wears Prada 2, Freaky Friday 2, and Shrek 5. Over the past few months, there,s also been Legally Blonde 2, Beetlejuice Beetlejuice, a Harry Potter series remake with a whopping seven seasons coming to Max, a new Beverly Hills Cop hitting Netflix… 
+
+        
+    </p></div>
+        </th>
+        <th>
+            <div> <p class="para"><b>
+                <br>
+                <br>
+                <br>The brand is part of a rising crop of homegrown labels reimagining their physical stores as spaces of cultural discovery that bring together a community. Faced with an explosion of retail options, the rise of online platforms with instant delivery timelines, and the influx of international luxury brands to the Indian market, fashion stores are now stepping beyond the template of a traditional retailer to curate offbeat events ranging from music gigs to art shows to food trails.
+
+                “We want people to walk into our store and feel like they,re in a really cool basement or art gallery, where they can discover something new”, explains Capsul,s co-founder Bhavisha Dave. The brainchild of former brand marketeers Dave and Meenakshi Singh, Capsul,s carefully curated stores across Mumbai, Bangalore, and Ahmedabad regularly serve as backdrops for tattoo workshops, b-boy showcases, and even sushi takeovers. “Friendships and even love stories have started through our events,” Dave says with a laugh.
+            </p></div>
+                </th>
+    </table><br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading"> Mumbai Mirror</h1></div>
+    <div ><img class="image" src="https://indianjournalismreview.com/wp-content/uploads/2020/12/img_2948.jpg?w=580"  alt="image"></div>
+</th>
+    <th>
+    <div> <p class="para"><b>
+        <br>
+        <br>
+        <br>
+        <br>Developing residential, commercial buildings on salt pan lands will land Mumbai in further floody nuisance
+
+        Torrential rainfall in the last one
+        
+        MOST POPULAR
+        
+        Most Read
+        
+        Most commented
+        
+        week has only underlined the increasing need for open areas or wetlands where the rain waters would flow in to avoid flooding on Mumbai's roads, claim environmentalists while opposing the MMRDA
+        <br>
+        <br>
+        Online booking of slots will reduce chaos, help Mumbaikars find on-street and off-street parking, say experts
+
+        If all goes according to plan, Mumbaikars will have multiple choice of parking places and will be able to book parking space through their mobile phones very soon.
+        
+        A city parking pool, including all parking areas and space belonging to the other government agencies,
+    </p></div>
+        </th>
+        <th>
+            <div> <p class="para"><b>
+                <br>
+                <br>
+                <br>Mumbai (Maharashtra): A 5- year-old child died after a man gave rat poison to his three children after a family dispute, Mumbai police said on Wednesday.
+
+                As per an official statement given out by Mumbai police, the other two children were admitted to a hospital and are out of danger.
+                    
+                <br>
+                <br>
+                <br>
+                A man gave rat poison to his three children in ice cream after a family dispute, a 5-year- old child Alishan Mohammad Ali Ansar died. The other 2 children 7-year-old Alina and 2-year-old Armaan are undergoing treatment and are doing better," the statement said.
+
+Police said that a case was registered at Mankhurd Police station under relevant
+            </p></div>
+                </th>
+    </table><br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading"> The Economic <br>Times</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoB_t1DfwVWP7B8LUTjf1g9HJTjLHwvXw5ag&s"  alt=""></div>
+</th>
+    <th>
+    <div> <p class="para"><b>
+        <br>
+        <br>
+        <br>
+        <br>Biden faces fresh calls to withdraw as Democrats fear electoral rout.</b>
+        President Biden faced a fresh wave of pressure on Wednesday to end his campaign or rethink his decision to run for reelection, as Democrats from Hollywood to Capitol Hill aired grave concerns that he would lose to former president Donald Trump in November and drag his party's chance of controlling Congress down with him.
+        <br>
+        <br>
+        <br>
+        After Putin Gaffe, Biden Calls Kamala Harris "Vice President Trump" At Press Meet
+        Washington:US President Joe Biden, under intense scrutiny over his mental fitness to serve, mistakenly referred to his Vice President Kamala Harris on Thursday as "Vice President Trump."
+        Biden, asked whether Harris could beat Donald Trump if he decided not to run again, said: "I wouldn't have picked Vice President Trump to be vice president if I did not think she was not qualified to be president."
+    </p></div>
+        </th>
+        <th>
+            <div> <p class="para"><b>
+                <br>
+                <br>
+                <br>Local police didn't want him to have guns. He was allowed to buy them anyway. Then he killed his wife - and himself.<br>
+                    Police in Hopkinton, R.I., twice denied Joseph Francis' applications to buy firearms because of a cyberstalking charge. But Francis' lawyer, who is also the president of the R.I. Second Amendment Coalition, cleared the way.
+                    
+                <br>
+                <br>
+                <br>
+                Closed state prison reopened as migrant shelter spurs concern about schooling in a Massachusetts town:<br>
+                Officials from the King Philip Regional School District and Norfolk Public Schools sought to assure parents and others that enrolling migrant childrenstaying at the shelter would not result in packed classrooms and diminished resources.
+            </p></div>
+                </th>
+    </table><br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading"> DNA</h1></div>
+    <div ><img class="image" src="https://static.javatpoint.com/top10-technologies/images/top-10-newspapers-in-india8.jpg"  alt=""></div>
+</th>
+    <th>
+        <div> <p class="para"><b>
+            <br>
+            <br>
+            <br>
+            <br>Developing residential, commercial buildings on salt pan lands will land Mumbai in further floody nuisance
+    
+            Torrential rainfall in the last one
+            
+            MOST POPULAR
+            
+            Most Read
+            
+            Most commented
+            
+            week has only underlined the increasing need for open areas or wetlands where the rain waters would flow in to avoid flooding on Mumbai's roads, claim environmentalists while opposing the MMRDA
+            <br>
+            <br>
+            Online booking of slots will reduce chaos, help Mumbaikars find on-street and off-street parking, say experts
+    
+            If all goes according to plan, Mumbaikars will have multiple choice of parking places and will be able to book parking space through their mobile phones very soon.
+            
+            A city parking pool, including all parking areas and space belonging to the other government agencies,
+        </p></div>
+            </th>
+            <th>
+                <div> <p class="para"><b>
+                    <br>
+                    <br>
+                    <br>Mumbai (Maharashtra): A 5- year-old child died after a man gave rat poison to his three children after a family dispute, Mumbai police said on Wednesday.
+    
+                    As per an official statement given out by Mumbai police, the other two children were admitted to a hospital and are out of danger.
+                        
+                    <br>
+                    <br>
+                    <br>
+                    A man gave rat poison to his three children in ice cream after a family dispute, a 5-year- old child Alishan Mohammad Ali Ansar died. The other 2 children 7-year-old Alina and 2-year-old Armaan are undergoing treatment and are doing better," the statement said.
+    
+    Police said that a case was registered at Mankhurd Police station under relevant
+                </p></div>
+                    </th>
+        </table><br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading">The New <br> Indian <br> Express</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiC5vQU4LpnCt3SJZ7wf41I0gjJygzFKUlQ&s"  alt=""></div>
+</th>
+    <th>
+        <div> <p class="para"><b>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <br>Sometimes, all we want is our comfort content; to immerse ourselves in a fictional world we know and love. But instead of championing new voices, instead of returning to those original, familiar stories, Hollywood wants us to consume new takes on old sh*t—in turn, ruining our tried-and-true comfort watches.
+    
+            Would I rewatch Friends or The O.C. if I knew the story would continue 20+ years later? Do we need to see Remy's life at his bistro in a potential Ratatouille 2? Probably not. These standalone stories are perfect as they are. Even when franchises end on a perfectly satisfying note with all lingering storylines complete, there's a high chance some executive will decide on a whim that the story should be prolonged, no matter if it's been less than a decade since its end. Nostalgia might be at an all-time high, but familiarity breeds contempt, and some things are better left untouched.
+            
+            In the past 7 days alone, we,ve gotten confirmation of Devil Wears Prada 2, Freaky Friday 2, and Shrek 5. Over the past few months, there,s also been Legally Blonde 2, Beetlejuice Beetlejuice, a Harry Potter series remake with a whopping seven seasons coming to Max, a new Beverly Hills Cop hitting Netflix… 
+    
+            
+        </p></div>
+            </th>
+            <th>
+                <div> <p class="para"><b>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>The brand is part of a rising crop of homegrown labels reimagining their physical stores as spaces of cultural discovery that bring together a community. Faced with an explosion of retail options, the rise of online platforms with instant delivery timelines, and the influx of international luxury brands to the Indian market, fashion stores are now stepping beyond the template of a traditional retailer to curate offbeat events ranging from music gigs to art shows to food trails.
+    
+                    “We want people to walk into our store and feel like they,re in a really cool basement or art gallery, where they can discover something new”, explains Capsul,s co-founder Bhavisha Dave. The brainchild of former brand marketeers Dave and Meenakshi Singh, Capsul,s carefully curated stores across Mumbai, Bangalore, and Ahmedabad regularly serve as backdrops for tattoo workshops, b-boy showcases, and even sushi takeovers. “Friendships and even love stories have started through our events,” Dave says with a laugh.
+                </p></div>
+                    </th>
+        </table><br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <table style = "width:100%">
+        <th>
+    <div><h1 class="heading"> The Tribune</h1></div>
+    <div ><img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_raBSmtF6WitmZ5VpfGEX41YYOR8H4PenoA&s"  alt=""></div>
+</th>
+    <th>
+    <div> <p class="para"><b>
+        <br>
+        <br>
+        <br>
+        <br>Biden faces fresh calls to withdraw as Democrats fear electoral rout.</b>
+        President Biden faced a fresh wave of pressure on Wednesday to end his campaign or rethink his decision to run for reelection, as Democrats from Hollywood to Capitol Hill aired grave concerns that he would lose to former president Donald Trump in November and drag his party's chance of controlling Congress down with him.
+        <br>
+        <br>
+        <br>
+        After Putin Gaffe, Biden Calls Kamala Harris "Vice President Trump" At Press Meet
+        Washington:US President Joe Biden, under intense scrutiny over his mental fitness to serve, mistakenly referred to his Vice President Kamala Harris on Thursday as "Vice President Trump."
+        Biden, asked whether Harris could beat Donald Trump if he decided not to run again, said: "I wouldn't have picked Vice President Trump to be vice president if I did not think she was not qualified to be president."
+    </p></div>
+        </th>
+        <th>
+            <div> <p class="para"><b>
+                <br>
+                <br>
+                <br>Local police didn't want him to have guns. He was allowed to buy them anyway. Then he killed his wife - and himself.<br>
+                    Police in Hopkinton, R.I., twice denied Joseph Francis' applications to buy firearms because of a cyberstalking charge. But Francis' lawyer, who is also the president of the R.I. Second Amendment Coalition, cleared the way.
+                    
+                <br>
+                <br>
+                <br>
+                Closed state prison reopened as migrant shelter spurs concern about schooling in a Massachusetts town:<br>
+                Officials from the King Philip Regional School District and Norfolk Public Schools sought to assure parents and others that enrolling migrant childrenstaying at the shelter would not result in packed classrooms and diminished resources.
+            </p></div>
+                </th>
+    </table>    <br>
+    <footer>
+        <p>&copy;2024 News Website. All rights reserved.</p>
+      </footer>
+    
+   
+</body>
+</html>
